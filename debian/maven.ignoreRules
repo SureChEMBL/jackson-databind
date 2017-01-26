@@ -1,0 +1,5 @@
+
+org.hibernate hibernate-cglib-repack * * * *
+org.apache.maven.plugins maven-release-plugin * * * *
+org.codehaus.mojo cobertura-maven-plugin * * * *
+* * * * * test

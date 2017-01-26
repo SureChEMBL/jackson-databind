@@ -1,0 +1,2 @@
+version=3
+https://github.com/FasterXML/jackson-databind/releases .*/jackson-databind-(\d[\d\.]*)\.tar\.gz
