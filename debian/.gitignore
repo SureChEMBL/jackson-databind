@@ -1,0 +1,7 @@
+debhelper-build-stamp
+files
+libjackson2-databind-java.substvars
+libjackson2-databind-java/
+maven-repo/
+maven.cleanIgnoreRules
+stamp-poms-patched

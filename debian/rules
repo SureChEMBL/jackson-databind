@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@ --with javahelper
+	dh $@ --with javahelper --buildsystem=maven
 
 override_dh_installchangelogs:
 	dh_installchangelogs release-notes/VERSION

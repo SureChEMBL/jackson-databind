@@ -1,3 +1,5 @@
+pom.xml.save
+
 # use glob syntax.
 syntax: glob
 *.class
