@@ -7,14 +7,14 @@ Uploaders:
  Wolodja Wentland <debian@babilen5.org>
 Build-Depends:
  debhelper (>= 9),
- default-jdk,
+ default-jdk (>= 1.7),
  groovy,
  javahelper (>= 0.32),
  junit4,
  libbuild-helper-maven-plugin-java,
- libjackson2-annotations-java (>= 2.8.5),
+ libjackson2-annotations-java (>= 2.8.6),
  libjackson2-annotations-java-doc,
- libjackson2-core-java (>= 2.8.5),
+ libjackson2-core-java (>= 2.8.6),
  libjackson2-core-java-doc,
  libmaven-bundle-plugin-java,
  libreplacer-java,
@@ -27,7 +27,9 @@ Homepage: http://wiki.fasterxml.com/JacksonHome
 
 Package: libjackson2-databind-java
 Architecture: all
-Depends: ${misc:Depends}, ${maven:Depends}
+Depends: ${misc:Depends}, ${maven:Depends},
+ libjackson2-annotations-java (>= 2.8.6),
+ libjackson2-core-java (>= 2.8.6),
 Recommends: ${maven:OptionalDepends}
 Description: fast and powerful JSON library for Java -- data binding
  The Jackson Data Processor is a multi-purpose Java library for processing
