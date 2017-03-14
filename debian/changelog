@@ -1,3 +1,10 @@
+jackson-databind (2.8.6-2) unstable; urgency=medium
+
+  * Included version into deps on libjackson2-annotations-java (>= 2.8.6)
+    and libjackson2-core-java (>= 2.8.6).
+
+ -- Yury Zavarin <yzavarin@ebi.ac.uk>  Tue, 14 Mar 2017 11:38:40 +0000
+
 jackson-databind (2.8.6-1) unstable; urgency=medium
 
   * Team upload.
